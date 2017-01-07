@@ -12,6 +12,20 @@ class ViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
     
+    let questions: [String] = [
+        "What are those?",
+        "Who ya wit?",
+        "Where ya from?"
+    ]
+    
+    let answers: [String] = [
+        "The juice",
+        "Ya mama",
+        "Annchester"
+    ]
+    
+    var currentQuestionIndex: Int = 0;
+    
     @IBAction func showNextQuestion(sender: AnyObject) {
         
     }
